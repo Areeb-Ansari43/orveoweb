@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB" class="no-js static">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="theme-color" content="#0a2a5c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Orveo Web">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{site}}/assets/img/share.png">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script>(function(d){d.classList.replace("no-js","js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.remove("static")})(document.documentElement)</script>
+{{> schema}}
+</head>
+<body data-page="{{nav}}">
+<a class="skip" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+{{body}}
+</main>
+{{> footer}}
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

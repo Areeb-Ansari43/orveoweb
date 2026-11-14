@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -2 132 124" role="img" aria-label="Orveo Web">
+  <defs>
+    <linearGradient id="og-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b8fd6"/><stop offset="1" stop-color="#0d3f86"/></linearGradient>
+    <radialGradient id="og-ball" cx=".38" cy=".32" r=".8"><stop offset="0" stop-color="#3aa3e3"/><stop offset=".55" stop-color="#155ea8"/><stop offset="1" stop-color="#0b3a7a"/></radialGradient>
+    <radialGradient id="og-core" cx=".45" cy=".4" r=".6"><stop offset="0" stop-color="#5fe0f2"/><stop offset="1" stop-color="#1696c9"/></radialGradient>
+    <linearGradient id="og-orbit" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d4a95"/><stop offset=".6" stop-color="#1ea7d8"/><stop offset="1" stop-color="#7ae6f5"/></linearGradient>
+    <clipPath id="og-front"><rect x="-10" y="60" width="140" height="40"/></clipPath>
+  </defs>
+  <circle cx="58" cy="58" r="50" fill="none" stroke="url(#og-ring)" stroke-width="7" stroke-linecap="round" stroke-dasharray="262 52" transform="rotate(118 58 58)"/>
+  <g transform="rotate(-22 60 60)"><ellipse cx="60" cy="60" rx="56" ry="17" fill="none" stroke="url(#og-orbit)" stroke-width="6.5"/></g>
+  <circle cx="58" cy="58" r="36" fill="url(#og-ball)"/>
+  <path d="M73 30 l8 10 v10 M46 52 l-8 9 v10" fill="none" stroke="#7cd3f0" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#0d3f86" stroke="#7cd3f0" stroke-width="2"><circle cx="73" cy="30" r="3.2"/><circle cx="81" cy="40" r="3.2"/><circle cx="38" cy="61" r="3.2"/><circle cx="38" cy="71" r="3.2"/></g>
+  <circle cx="58" cy="54" r="14" fill="#fff"/><circle cx="58" cy="54" r="9" fill="url(#og-core)"/>
+  <g transform="rotate(-22 60 60)"><ellipse cx="60" cy="60" rx="56" ry="17" fill="none" stroke="url(#og-orbit)" stroke-width="6.5" clip-path="url(#og-front)"/></g>
+</svg>
