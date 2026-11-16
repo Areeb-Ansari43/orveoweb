@@ -67,7 +67,7 @@
 
   /* Reveal once */
   if (!isStatic() && 'IntersectionObserver' in window) {
-    const els = $$('.head, .mini-plan, .value, .faq details, .table-wrap, .trust__in, .cta__in > *');
+    const els = $$('.head, .mini-plan, .value, .faq details, .table-wrap, .trust__in, .cta__in > *, .case, .why__card, .process__steps li');
     els.forEach(el => {
       el.setAttribute('data-reveal', '');
       const sib = [...el.parentElement.children].filter(c => c.hasAttribute('data-reveal'));
